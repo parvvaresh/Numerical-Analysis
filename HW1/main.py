@@ -55,7 +55,9 @@ def Computing_main(size_n, size_m, base):
         value = Computing_sub(two_number[0], base) + Computing_sub(two_number[1], 1 / base)
         #value = 0 + Computing_sub(two_number[1], 0.5)
         test_dic = {element : value}
-        dict_test.update(test_dic)
+        dict_test.update(test_dic) 
+        dict(sorted(dict_test.items(), key=lambda item: item[1]))
+
     count = 1
     for key, value in dict_test.items():
         print(f"{count} --> number is +-{key} and value is +-{value}")   
@@ -110,7 +112,6 @@ def plotting(dic_test):
 
 
     plt.scatter(list_of_value, Y)
-    #x_lim(0,0)
     plt.show()
 #-------------------------------------------------------------------------------
 
@@ -140,9 +141,6 @@ def main():
 #--------------------------------------------------------------------------------
 
 main()
-    
-        
-
     
 
 
