@@ -1,6 +1,5 @@
 # Numerical-Analysis-course
 
-    <div class = "frist homework">
         <h2>
             this is a frist homework
         </h2>
@@ -14,5 +13,4 @@
 
 
         
-    </div>
 
